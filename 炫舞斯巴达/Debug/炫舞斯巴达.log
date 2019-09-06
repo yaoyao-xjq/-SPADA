@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/11/3 14:49:48。
+     1>项目“F:\炫舞斯巴达游戏项目\炫舞斯巴达\炫舞斯巴达.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Back.cpp
+         Back.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\炫舞斯巴达游戏项目\Debug\炫舞斯巴达.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\炫舞斯巴达游戏项目\Debug\炫舞斯巴达.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\炫舞斯巴达游戏项目\Debug\炫舞斯巴达.lib" /MACHINE:X86 "Debug\炫舞斯巴达.res"
+         Debug\Arrow.obj
+         Debug\Back.obj
+         Debug\DanceApp.obj
+         Debug\DownArrow.obj
+         Debug\LeftArrow.obj
+         Debug\RightArrow.obj
+         Debug\UpArrow.obj
+         Debug\WinMain.obj
+         炫舞斯巴达.vcxproj -> F:\炫舞斯巴达游戏项目\Debug\炫舞斯巴达.exe
+     1>已完成生成项目“F:\炫舞斯巴达游戏项目\炫舞斯巴达\炫舞斯巴达.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.14

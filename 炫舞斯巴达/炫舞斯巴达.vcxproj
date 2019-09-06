@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E28E1B7C-8231-4086-85E2-05195AD225DE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>炫舞斯巴达</RootNamespace>
+    <ProjectName>炫舞斯巴达</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Arrow.h" />
+    <ClInclude Include="Back.h" />
+    <ClInclude Include="DanceApp.h" />
+    <ClInclude Include="DownArrow.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="LeftArrow.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RightArrow.h" />
+    <ClInclude Include="Sys.h" />
+    <ClInclude Include="UpArrow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Arrow.cpp" />
+    <ClCompile Include="Back.cpp" />
+    <ClCompile Include="DanceApp.cpp" />
+    <ClCompile Include="DownArrow.cpp" />
+    <ClCompile Include="LeftArrow.cpp" />
+    <ClCompile Include="RightArrow.cpp" />
+    <ClCompile Include="UpArrow.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="炫舞斯巴达.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Back (1) (22).bmp" />
+    <Image Include="res\Back (1).bmp" />
+    <Image Include="res\back.bmp" />
+    <Image Include="res\back1.bmp" />
+    <Image Include="res\background1.bmp" />
+    <Image Include="res\background2.bmp" />
+    <Image Include="res\background3.bmp" />
+    <Image Include="res\backgroundLeft.bmp" />
+    <Image Include="res\backgroundRight.bmp" />
+    <Image Include="res\downblack1.bmp" />
+    <Image Include="res\downblacky.bmp" />
+    <Image Include="res\downwhite2.bmp" />
+    <Image Include="res\downwhitey.bmp" />
+    <Image Include="res\leftblack1.bmp" />
+    <Image Include="res\leftblacky.bmp" />
+    <Image Include="res\leftwhite2.bmp" />
+    <Image Include="res\leftwhitey.bmp" />
+    <Image Include="res\rightblack2.bmp" />
+    <Image Include="res\rightblacky.bmp" />
+    <Image Include="res\rightwhite2.bmp" />
+    <Image Include="res\rightwhitey .bmp" />
+    <Image Include="res\roleblack.bmp" />
+    <Image Include="res\rolewhite.bmp" />
+    <Image Include="res\upblack1.bmp" />
+    <Image Include="res\upblacky.bmp" />
+    <Image Include="res\upwhite1.bmp" />
+    <Image Include="res\upwhitey.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
